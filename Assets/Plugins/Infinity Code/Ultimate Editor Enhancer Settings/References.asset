@@ -176,6 +176,10 @@ MonoBehaviour:
     alignWindowToBar: 1
     windowMode: 0
   _sceneHistory:
+  - name: ExampleSandbox
+    path: Assets/Plugins/DavidJalbert/TinyCarControllerAdvance/Examples/ExampleSandbox.unity
+  - name: ExampleMinimal
+    path: Assets/Plugins/DavidJalbert/TinyCarControllerAdvance/Examples/ExampleMinimal.unity
   - name: City Junction
     path: Assets/AssetsPack/Simple Roads/Sample Scenes/City Junction.unity
   - name: Town Map
@@ -210,7 +214,3 @@ MonoBehaviour:
     path: Assets/Simple Roads/Sample Scenes/City Junction.unity
   - name: DriftScene_DriftAI
     path: Assets/UniversalVehicleController/Scenes/DriftScene_DriftAI.unity
-  - name: DamageScene
-    path: Assets/UniversalVehicleController/Scenes/DamageScene.unity
-  - name: Race Track
-    path: Assets/Simple Roads/Sample Scenes/Race Track.unity
