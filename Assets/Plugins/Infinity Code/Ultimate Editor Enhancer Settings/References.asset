@@ -176,6 +176,16 @@ MonoBehaviour:
     alignWindowToBar: 1
     windowMode: 0
   _sceneHistory:
+  - name: 1 Bomb. Basics
+    path: Assets/AssetsPack/RayFire/Tutorial/Scenes/10 Bomb/1 Bomb. Basics.unity
+  - name: 1. Activator. Gizmo
+    path: Assets/AssetsPack/RayFire/Tutorial/Scenes/8 Activator/1. Activator. Gizmo.unity
+  - name: 2 Shatter. Types. Splinters
+    path: Assets/AssetsPack/RayFire/Tutorial/Scenes/1 Shatter/2 Shatter. Types. Splinters.unity
+  - name: 1 Shatter. Types. Voronoi
+    path: Assets/AssetsPack/RayFire/Tutorial/Scenes/1 Shatter/1 Shatter. Types. Voronoi.unity
+  - name: SampleScene
+    path: Assets/Scenes/SampleScene.unity
   - name: ExampleSandbox
     path: Assets/Plugins/DavidJalbert/TinyCarControllerAdvance/Examples/ExampleSandbox.unity
   - name: ExampleMinimal
@@ -198,19 +208,9 @@ MonoBehaviour:
     path: Assets/AssetsPack/Low Poly Soviet Car Pack/Scenes/DemoScene3.unity
   - name: Town Map
     path: Assets/Simple Roads/Sample Scenes/Town Map.unity
-  - name: SampleScene
-    path: Assets/Scenes/SampleScene.unity
   - name: RCC Blank Test Scene
     path: Assets/RealisticCarControllerV3/Demo Scenes/RCC Blank Test Scene.unity
   - name: RCC Blank API Test Scene
     path: Assets/RealisticCarControllerV3/Demo Scenes/RCC Blank API Test Scene.unity
   - name: RCC City AIO
     path: Assets/RealisticCarControllerV3/Demo Scenes/RCC City AIO.unity
-  - name: RCC Multiple Terrain Test Scene
-    path: Assets/RealisticCarControllerV3/Demo Scenes/RCC Multiple Terrain Test Scene.unity
-  - name: RCC City
-    path: Assets/RealisticCarControllerV3/Demo Scenes/RCC City.unity
-  - name: City Junction
-    path: Assets/Simple Roads/Sample Scenes/City Junction.unity
-  - name: DriftScene_DriftAI
-    path: Assets/UniversalVehicleController/Scenes/DriftScene_DriftAI.unity
