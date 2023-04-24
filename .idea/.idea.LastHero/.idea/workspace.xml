@@ -3,51 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="992afef7-e4cf-43da-a399-f353c68e861b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LastHero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LastHero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.001.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.001.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.002.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.002.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.003.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.003.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.004.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.004.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.005.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.005.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.006.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.006.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.007.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.007.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.008.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.008.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.009.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.009.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.010.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.010.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.011.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.011.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.013.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/Car.013.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/lada-2105-1980MS.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cars/lada-2105-1980MS.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DavidJalbert/TinyCarControllerAdvance/Scripts/Helpers/TCCAStandardInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DavidJalbert/TinyCarControllerAdvance/Scripts/Helpers/TCCAStandardInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Infinity Code/Ultimate Editor Enhancer Settings/References.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Infinity Code/Ultimate Editor Enhancer Settings/References.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetsPack/RayFire/Plugins/Ios/libRF_CNative_ios.a.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tank/TankRotator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tank/TankRotator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Models/Car.001.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Models/Car.001.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Models/Cars.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Models/Cars.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Models/tank.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Models/tank.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Textures/Cars.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Textures/Cars.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Textures/aXIewwjO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Textures/aXIewwjO.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tank/Head/Shooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tank/Head/Shooter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +14,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HpBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RayCastShooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tank/Head/Shooter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -116,7 +76,8 @@
       <updated>1672935553835</updated>
       <workItem from="1672935560747" duration="2000" />
       <workItem from="1673026820287" duration="2215000" />
-      <workItem from="1673075928962" duration="8604000" />
+      <workItem from="1673075928962" duration="10553000" />
+      <workItem from="1677074398142" duration="5517000" />
     </task>
     <servers />
   </component>

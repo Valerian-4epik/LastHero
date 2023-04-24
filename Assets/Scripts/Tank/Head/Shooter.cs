@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Tank.Head {
@@ -6,20 +8,48 @@ namespace Tank.Head {
         [SerializeField] private Transform _shootPoint;
         [SerializeField] private float _projectileForce;
         [SerializeField] private float _fireRate;
-        
+
         private float _nextFireTime;
+        private WaitForSeconds _delay;
+        private Coroutine _attack;
+        
+        private void Start() {
+            _attack = StartCoroutine(AttackRoutine());
+        }
 
-        private void Update() {
-            if (Input.GetKeyDown(KeyCode.Space) && Time.time > _nextFireTime) {
-                GameObject projectile = Instantiate(_projectile, _shootPoint.position, Quaternion.identity);
-                // Получаем компонент Rigidbody у снаряда
-                Rigidbody rb = projectile.GetComponent<Rigidbody>();
+        public void SwitchAttackState() {
+            if (_attack == null) {
+                _attack = StartCoroutine(AttackRoutine());
+            }
+            else {
+               StopCoroutine(_attack);
+               _attack = null;
+            }
+        }
 
-                // Добавляем силу вперед в том направлении, в котором указывает оружие
-                rb.AddForce(-transform.up  * _projectileForce, ForceMode.Impulse);
+        // private void Update() {
+        //     if (Input.GetKeyDown(KeyCode.Space)) {
+        //         GameObject projectile = Instantiate(_projectile, _shootPoint.position, Quaternion.identity);
+        //
+        //         Rigidbody rb = projectile.GetComponent<Rigidbody>();
+        //
+        //         rb.AddForce(-transform.up * _projectileForce, ForceMode.Impulse);
+        //
+        //         _nextFireTime = Time.time + _fireRate;
+        //     }
+        // }
 
-                // Устанавливаем время следующей стрельбы
-                _nextFireTime = Time.time + _fireRate;
+        private IEnumerator AttackRoutine() {
+            while (true) {
+                _delay = null;
+                if (Input.GetKeyDown(KeyCode.Space)) {
+                    GameObject projectile = Instantiate(_projectile, _shootPoint.position, Quaternion.identity);
+                    Rigidbody rb = projectile.GetComponent<Rigidbody>();
+                    rb.AddForce(-transform.up * _projectileForce, ForceMode.Impulse);
+                    _delay = new WaitForSeconds(_fireRate);
+                }
+
+                yield return _delay;
             }
         }
     }
