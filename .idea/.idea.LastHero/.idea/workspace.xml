@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992afef7-e4cf-43da-a399-f353c68e861b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LastHero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LastHero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetsPack/RayFire/Plugins/Ios/libRF_CNative_ios.a.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tank/Head/Shooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tank/Head/Shooter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +74,7 @@
       <workItem from="1673026820287" duration="2215000" />
       <workItem from="1673075928962" duration="10553000" />
       <workItem from="1677074398142" duration="5517000" />
+      <workItem from="1683486378669" duration="631000" />
     </task>
     <servers />
   </component>
